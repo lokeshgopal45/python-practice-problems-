@@ -1,0 +1,10 @@
+testcase = int(input())
+for i in range(testcase):
+    N = int(input())
+    L = list(map(int, input().split(" ")))
+    m = max(L)
+    L.pop(L.index(m))
+    n = max(L)
+    L.pop(L.index(n))
+    L.sort()
+    print(*L, sep=" ")

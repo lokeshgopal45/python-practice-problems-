@@ -1,0 +1,8 @@
+result = 1
+i = 1
+
+while i <= 100:
+    result = result * i
+    i = i+1
+
+print('The factorial of 100 is: {}'.format(result))

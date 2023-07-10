@@ -1,0 +1,8 @@
+import re
+pharse = input("Enter string....")
+straight = ''.join(re.findall(r'[a-z]+', pharse.upper()))
+back = straight[::-1]
+if straight == back :
+    print ("This is palindrome") 
+else:
+    print("Not a Palindrome")

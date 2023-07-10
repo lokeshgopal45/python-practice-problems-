@@ -1,0 +1,5 @@
+a=input()
+b=input()
+if len(set(a))==len(set(b)):print("str1 is Equal to str2")
+elif len(set(a))>len(set(b)):print("str2 is less than to str1")
+else:print("str1 is less than to str2")
